@@ -1,0 +1,33 @@
+.input {
+  width: 150px;
+  height: 40px;
+  background: transparent;
+  padding: 0 10px;
+  border-image: linear-gradient(
+      90.02deg,
+      #0179c3 43.66%,
+      #014cfa 68.56%,
+      #8454d3 94.34%
+    )
+    1;
+}
+
+.input:active,
+.input:focus {
+  outline: 0;
+}
+
+.input-small {
+  width: 120px;
+  height: 30px;
+}
+
+.input-medium {
+  width: 180px;
+  height: 45px;
+}
+
+.input-large {
+  width: 240px;
+  height: 50px;
+}
